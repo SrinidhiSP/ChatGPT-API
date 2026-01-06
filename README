@@ -1,0 +1,19 @@
+## Overview
+
+This project reverse engineers the ChatGPT web client and exposes an OpenAI-compatible API using a Chrome Extension → VS Code bridge architecture.
+
+---
+
+## Quick Start
+
+### 1. Start Local Server
+cd local-server
+npm install
+npm start
+
+### 2. Package and add Chrome Extension
+
+### 3. Install VS Code Extension
+cd vscode-extension
+npm install
+npx vsce package
